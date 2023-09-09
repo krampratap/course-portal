@@ -8,12 +8,12 @@ const AllCourses = () => {
   //useEffect is a hook.. same as componentDidMount and componentDidUpdate in class components
 
   useEffect(() => {
-    document.title = "All Courses || reactJS";
+    document.title = "All Courses || Course React App";
   }, []);
   //If we use [] then the useEffect will only run on MOUNTING of component and not on UPDATION
-  // CHECK THE BEHAVIOUR BY REMOVING and running the project
+  //CHECK THE BEHAVIOUR BY REMOVING and running the project
 
-  // function to call server
+  //function to call server
   const getAllCourses = () => {
     axios.get(`${baseurl}/courses`).then(
       (response) => {

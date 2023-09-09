@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 
 const AddCourse = () => {
   useEffect(() => {
-    document.title = "Add Course || reactJS";
+    document.title = "Add Course || Course React App";
   }, []);
 
   const [course, setcourse] = useState({}); //blank object in useState

@@ -16,7 +16,7 @@ import { Link } from "react-router-dom";
 
 const Course = ({ course, deleteC }) => {
   useEffect(() => {
-    document.title = "Course || reactJS";
+    document.title = "Course || Course React App";
   }, []);
 
   const deleteCourse = (id) => {
