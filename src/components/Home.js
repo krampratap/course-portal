@@ -3,7 +3,7 @@ import { Jumbotron, Container, Button } from "reactstrap";
 
 const Home = () => {
   useEffect(() => {
-    document.title = "Home || reactJS";
+    document.title = "Home || Course React App";
   }, []);
   return (
     //JumbroTron is not found in reactstrap
